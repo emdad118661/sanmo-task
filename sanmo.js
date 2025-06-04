@@ -19,9 +19,32 @@ const card2Data = [
   }
 ];
 
+const card3Data = [
+  {
+    img: "./assets/card3.png",
+    step: "step 1",
+    heading: "Create Your Persona",
+    description: "Connect your wallet and generate your AI-powered identity. Choose traits, style, vibe — this becomes your on-chain alter ego."
+  },
+  {
+    img: "./assets/card3.png",
+    step: "step 2",
+    heading: "Post, Battle, Earn XP",
+    description: "Post memes, join PvP battles, react to others — every interaction earns XP. Climb the leaderboard, collect badges, and grow your reputation."
+  },
+  {
+    img: "./assets/card3.png",
+    step: "step 3",
+    heading: "Unlock Rewards & Monetize",
+    description: "Use your XP to access voice portals, premium quests, and creator monetization. Earn stablecoins, badges, and flex your status across the platform."
+  }
+];
+
+
 
 const container = document.querySelector(".card-spacing");
 const card2Container = document.getElementById("card2Container");
+const card3Container = document.getElementById("card3Container");
 
 cardData.map(data => {
     const card = document.createElement('div');
@@ -59,4 +82,18 @@ card2Data.map(data => {
   `;
 
   card2Container.appendChild(card);
+});
+
+card3Data.map(data => {
+  const card = document.createElement('div');
+  card.className = 'card3';
+
+  card.innerHTML = `
+    <img class="img-card3-sizing" src="${data.img}" alt="">
+    <div class="step-font dm-sans-font">${data.step}</div>
+    <div class="card3-heading dm-sans-font">${data.heading}</div>
+    <div class="card3-para dm-sans-font">${data.description}</div>
+  `;
+
+  card3Container.appendChild(card);
 });

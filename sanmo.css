@@ -313,7 +313,7 @@ nav {
     border: 2px solid #40DDE3;
     color: #40DDE3;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 0.73vw;
 }
 
 .first-top-button-sizing {
@@ -330,7 +330,7 @@ nav {
 .size {
     margin-top: 8.59vh;
     margin-left: 10.08vw;
-    font-size: 20px;
+    font-size: 1.3vw;
     width: 59.58vw;
 }
 
@@ -360,7 +360,7 @@ nav {
 .size-second {
     margin-top: 4.51vh;
     margin-left: 10.08vw;
-    font-size: 20px;
+    font-size: 1.3vw;
     width: 60.81vw;
 }
 
@@ -449,7 +449,7 @@ nav {
     z-index: 100;
 }
 
-.card2-spacing{
+.card2-spacing {
     margin-top: 3vh;
     margin-left: 3.68vw;
     margin-right: 3.68vw;
@@ -458,19 +458,193 @@ nav {
     gap: 1.09vw;
 }
 
-.mt{
+.mt {
     margin-top: 3vh;
 }
 
-.flexing{
+.flexing {
     display: flex;
 }
 
-.card2-image-sizing{
+.card2-image-sizing {
     width: 11vw;
     height: 11vw;
     margin-top: 1vh;
 }
+
+.third-top-button-sizing {
+    margin-left: 41.52vw;
+    margin-top: 255.15vh;
+    width: 19.95vw;
+    height: 5.78vh;
+}
+
+.margin-use-harshid {
+    margin-left: 20vw;
+}
+
+.third-right-line-spacing {
+    top: 263.23vh;
+}
+
+.grid-three-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.8vw;
+    padding: 0 3vw;
+    box-sizing: border-box;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+.card3 {
+    width: 18.65vw;
+    height: 50.76vh;
+    box-shadow: 0 45px 70px -20px rgba(0, 0, 0, 0.45);
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background-color: rgba(18, 18, 19, 0.45);
+    backdrop-filter: blur(45%);
+    -webkit-backdrop-filter: blur(45%);
+    overflow: hidden;
+    z-index: 100;
+    margin: 0;
+}
+
+.img-card3-sizing {
+    width: 15.67vw;
+    height: 15.67vw;
+    margin: 0 auto;
+    display: block;
+}
+
+.step-font {
+    font-size: 0.57vw;
+    color: #999999;
+    margin-left: 1.04vw;
+}
+
+.card3-heading {
+    font-size: 1.04vw;
+    color: #FFFFFF;
+    margin-left: 1.04vw;
+}
+
+.card3-para {
+    font-size: 0.73vw;
+    color: #999999;
+    margin: 0 1.04vw;
+}
+
+.fourth-left-line-spacing {
+    top: 347.09vh
+}
+
+.our-partners {
+    position: absolute;
+    top: 350.09vh;
+    left: 10.13vw;
+    width: 79.79vw;
+    height: 59.34vh;
+    box-shadow: 0 45px 70px -20px rgba(37, 34, 34, 0.35);
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background-color: rgba(18, 18, 19, 0.45);
+    backdrop-filter: blur(45%);
+    -webkit-backdrop-filter: blur(45%);
+    overflow: hidden;
+    z-index: 10;
+}
+
+.fourth-top-button-sizing {
+    margin-left: 34.59vw;
+    margin-top: 3.95vh;
+    width: 10.61vw;
+    height: 5.78vh;
+}
+
+.card4 {
+    margin-top: 4.24vh;
+    margin-left: 5.3vw;
+    margin-right: 5.3vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.24vh 5.04vw;
+}
+
+.card4-inside {
+    width: 19.7vw;
+    height: 10.99vh;
+    box-shadow: 0 45px 70px -20px rgba(0, 0, 0, 0.45);
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background-color: rgba(18, 18, 19, 0.45);
+    backdrop-filter: blur(45%);
+    -webkit-backdrop-filter: blur(45%);
+    overflow: hidden;
+    z-index: 100;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card4-img-size {
+    height: 6.25vh;
+    width: 16.38vw;
+}
+
+.fourth-right-line-spacing{
+    top: 381.84vh;
+}
+
+.fifth-left-line-spacing{
+    top: 425.7vh;
+}
+
+.last-heading-text {
+    position: absolute;
+    top: 500.14vh;
+    left: 15.74vw;
+    width: 61.78vw;
+    height: 18.056vh;
+
+    font-size: 6.02vh;
+    font-weight: 600;
+
+    background: linear-gradient(
+        to right,
+        #292929 4%,
+        #FFFFFF 32%,
+        #676767 55%,
+        #FFFFFF 73%
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    z-index: 100;
+}
+
+
+.waitlist-form-last {
+    position: absolute;
+    display: flex;
+    width: 27.36vw;
+    height: 6.06vh;
+    border: 1px solid #999;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    top: 512.30vh;
+    right: 26.08vw;
+}
+
 
 /* ================== Responsive for Tablets ================== */
 @media (max-width: 1024px) {
@@ -529,7 +703,7 @@ nav {
     }
 
     .top-button {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .face-circle img {
@@ -537,16 +711,20 @@ nav {
         height: 1.95vw;
     }
 
-    .second-card-design{
+    .second-card-design {
         height: 35vh;
     }
 
-    .card2-image-sizing{
+    .card2-image-sizing {
         margin-top: 10vh;
     }
-    
-    .card2-spacing{
+
+    .card2-spacing {
         margin-left: 5vw;
+    }
+
+    .card3 {
+        height: 40vh;
     }
 }
 
@@ -629,6 +807,7 @@ nav {
 
     .top-button {
         margin-left: 28.79vw;
+        font-size: 10px;
     }
 
     .first-top-button-sizing {
@@ -653,7 +832,7 @@ nav {
         height: 162vh;
     }
 
-    .face-circle{
+    .face-circle {
         width: 3.5vw;
         height: 3.5vw;
     }
@@ -663,13 +842,38 @@ nav {
         height: 3.1vw;
     }
 
-    .card2-spacing{
+    .card2-spacing {
         margin-left: 5vw;
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .second-card-design{
+    .second-card-design {
         width: 70vw;
         height: 25vh;
+    }
+
+    .use-hashrid {
+        position: absolute;
+        top: 60vh;
+    }
+    .third-top-button-sizing{
+        width: 20vw;
+        height: 6vh;
+    }
+    .fourth-top-button-sizing{
+        width: 20vw;
+        height: 6vh;
+    }
+    .card3{
+        height: 12vh;
+    }
+    .card4-inside{
+        height: 5vh;
+    }
+    .card4-img-size{
+        height: 3vh;
+    }
+    .our-partners{
+        height: 47vh;
     }
 }
