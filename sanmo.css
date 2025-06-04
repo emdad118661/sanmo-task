@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Orbitron:wght@400..900&display=swap');
 
 body {
-    background-color: black;
+    background-color: #1e1e20;
     margin-left: 2.31vw;
     margin-right: 2.61vw;
     margin-top: 3.17vh;
@@ -20,8 +20,8 @@ nav {
 
 .dm-sans-font {
     font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
+    color: #DEDEDE;
 }
 
 .sky-btn {
@@ -270,6 +270,208 @@ nav {
     background-color: #30c6cc;
 }
 
+.line-under-first-box {
+    position: absolute;
+    background-color: #8C8C8C;
+    stroke: 1px #999999;
+    width: 62.38vw;
+    height: 3.56vh;
+    border-radius: 20px;
+    top: 86.99vh;
+    left: 18.81vw;
+}
+
+.second-hash-logo-spacing {
+    position: absolute;
+    top: 82.09vh;
+    left: 49.26vw;
+}
+
+.second-left-line-spacing {
+    top: 124.02vh;
+}
+
+.meet-harshid-card {
+    position: absolute;
+    top: 99.01vh;
+    left: 10.13vw;
+    width: 79.79vw;
+    height: 36.13vh;
+    box-shadow: 0 45px 70px -20px rgba(0, 0, 0, 0.35);
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background-color: rgba(18, 18, 19, 0.45);
+    backdrop-filter: blur(45%);
+    -webkit-backdrop-filter: blur(45%);
+    overflow: hidden;
+    z-index: 10;
+}
+
+.top-button {
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #40DDE3;
+    color: #40DDE3;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.first-top-button-sizing {
+    margin-left: 34.79vw;
+    margin-top: 2.63vh;
+    width: 10.16vw;
+    height: 4.78vh;
+}
+
+.items-center {
+    text-align: center;
+}
+
+.size {
+    margin-top: 8.59vh;
+    margin-left: 10.08vw;
+    font-size: 20px;
+    width: 59.58vw;
+}
+
+.second-top-button-sizing {
+    margin-left: 31.40vw;
+    margin-top: 2.63vh;
+    width: 19.95vw;
+    height: 5.78vh;
+}
+
+.feature-power-culture-card {
+    position: absolute;
+    top: 146.66vh;
+    left: 10.13vw;
+    width: 79.79vw;
+    height: 97.38vh;
+    box-shadow: 0 45px 70px -20px rgba(37, 34, 34, 0.35);
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background-color: rgba(18, 18, 19, 0.45);
+    backdrop-filter: blur(45%);
+    -webkit-backdrop-filter: blur(45%);
+    overflow: hidden;
+    z-index: 10;
+}
+
+.size-second {
+    margin-top: 4.51vh;
+    margin-left: 10.08vw;
+    font-size: 20px;
+    width: 60.81vw;
+}
+
+.second-right-line-spacing {
+    top: 154.77vh;
+}
+
+.third-left-line-spacing {
+    top: 224.47vh;
+}
+
+.first-card-design {
+    width: 22.74vw;
+    height: 35.55vh;
+    box-shadow: 0 45px 70px -20px rgba(0, 0, 0, 0.45);
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background-color: rgba(18, 18, 19, 0.45);
+    backdrop-filter: blur(45%);
+    -webkit-backdrop-filter: blur(45%);
+    overflow: hidden;
+    z-index: 100;
+}
+
+.card-spacing {
+    margin-top: 6.78vh;
+    margin-left: 3.68vw;
+    margin-right: 3.68vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.09vw;
+}
+
+.face-circle {
+    width: 2.06vw;
+    height: 2.06vw;
+    border: 1px solid#40DDE3;
+    background-color: #2A6263;
+    border-radius: 100%;
+    margin-left: 1.04vw;
+    margin-top: 1.61vh;
+}
+
+.image-sizing {
+    width: 6vw;
+    height: 6vw;
+    margin-left: 7.18vw;
+    margin-top: 0vh;
+}
+
+.first-card-heading {
+    font-size: 18px;
+    margin-left: 1.04vw;
+    margin-top: 0vh;
+    line-height: 1.2;
+}
+
+.small-heading {
+    font-size: 12px;
+    color: #999999;
+    font-weight: bold;
+    margin-left: 1.04vw;
+    margin-top: 1vh;
+    line-height: 1.2;
+}
+
+.small-para {
+    color: #999999;
+    font-size: 12px;
+    margin-top: 0vh;
+    line-height: 1.2;
+    margin-left: 1.04vw;
+    margin-right: 3.91vw;
+}
+
+.second-card-design {
+    width: 32.48vw;
+    height: 25.90vh;
+    box-shadow: 0 45px 70px -20px rgba(0, 0, 0, 0.45);
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background-color: rgba(18, 18, 19, 0.45);
+    backdrop-filter: blur(45%);
+    -webkit-backdrop-filter: blur(45%);
+    overflow: hidden;
+    z-index: 100;
+}
+
+.card2-spacing{
+    margin-top: 3vh;
+    margin-left: 3.68vw;
+    margin-right: 3.68vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.09vw;
+}
+
+.mt{
+    margin-top: 3vh;
+}
+
+.flexing{
+    display: flex;
+}
+
+.card2-image-sizing{
+    width: 11vw;
+    height: 11vw;
+    margin-top: 1vh;
+}
+
 /* ================== Responsive for Tablets ================== */
 @media (max-width: 1024px) {
 
@@ -283,6 +485,15 @@ nav {
         left: 0;
     }
 
+    .xp-bar-inside {
+        height: 2.27vh;
+    }
+
+    .xp-bar-inside-text {
+        font-size: 0.9vw;
+        color: black;
+    }
+
     .top-heading-text {
         font-size: 5.5vh;
         width: 90vw;
@@ -293,6 +504,49 @@ nav {
         width: 80vw;
         left: 10vw;
         top: 55vh;
+    }
+
+    .line-under-first-box {
+        height: 3.56vh;
+        width: 98vw;
+        left: 1vw;
+    }
+
+    .first-top-button-sizing {
+        height: 6.78vh;
+    }
+
+    .feature-power-culture-card {
+        height: 105vh;
+    }
+
+    .size-second {
+        font-size: 12px;
+    }
+
+    .first-card-design {
+        height: 38vh;
+    }
+
+    .top-button {
+        font-size: 10px;
+    }
+
+    .face-circle img {
+        width: 1.95vw;
+        height: 1.95vw;
+    }
+
+    .second-card-design{
+        height: 35vh;
+    }
+
+    .card2-image-sizing{
+        margin-top: 10vh;
+    }
+    
+    .card2-spacing{
+        margin-left: 5vw;
     }
 }
 
@@ -309,6 +563,16 @@ nav {
         width: 90vw;
         left: 0;
         height: 70.73888889vh;
+    }
+
+    .xp-bar-inside {
+
+        height: 2.27vh;
+    }
+
+    .xp-bar-inside-text {
+        font-size: 0.9vw;
+        color: black;
     }
 
     .top-heading-text {
@@ -354,5 +618,58 @@ nav {
         width: 100%;
         padding: 1.2vh;
         font-size: 2.2vh;
+    }
+
+    .line-under-first-box {
+        height: 3.56vh;
+        top: 90vh;
+        width: 98vw;
+        left: 2vw;
+    }
+
+    .top-button {
+        margin-left: 28.79vw;
+    }
+
+    .first-top-button-sizing {
+        width: 23.16vw;
+        height: 6.78vh;
+    }
+
+    .card-spacing {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .first-card-design {
+        width: 70vw;
+        height: 25vh;
+    }
+
+    .size {
+        font-size: 10px;
+    }
+
+    .feature-power-culture-card {
+        height: 162vh;
+    }
+
+    .face-circle{
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+
+    .face-circle img {
+        width: 3.1vw;
+        height: 3.1vw;
+    }
+
+    .card2-spacing{
+        margin-left: 5vw;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .second-card-design{
+        width: 70vw;
+        height: 25vh;
     }
 }
