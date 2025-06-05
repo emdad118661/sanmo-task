@@ -473,8 +473,7 @@ nav {
 }
 
 .third-top-button-sizing {
-    margin-left: 41.52vw;
-    margin-top: 255.15vh;
+    margin-left: 41.51vw;
     width: 19.95vw;
     height: 5.78vh;
 }
@@ -484,7 +483,7 @@ nav {
 }
 
 .third-right-line-spacing {
-    top: 263.23vh;
+    top: 255.23vh;
 }
 
 .grid-three-card {
@@ -493,13 +492,13 @@ nav {
     gap: 1.8vw;
     padding: 0 3vw;
     box-sizing: border-box;
-    margin-top: 5vh;
+    margin-top: 2.78vh;
     margin-left: 10vw;
 }
 
 .card3 {
     width: 18.65vw;
-    height: 50.76vh;
+    height: 46.76vh;
     box-shadow: 0 45px 70px -20px rgba(0, 0, 0, 0.45);
     border: 1px solid #404040;
     border-radius: 5px;
@@ -508,12 +507,11 @@ nav {
     -webkit-backdrop-filter: blur(45%);
     overflow: hidden;
     z-index: 100;
-    margin: 0;
 }
 
 .img-card3-sizing {
-    width: 15.67vw;
-    height: 15.67vw;
+    width: 13.67vw;
+    height: 11.67vw;
     margin: 0 auto;
     display: block;
 }
@@ -537,12 +535,12 @@ nav {
 }
 
 .fourth-left-line-spacing {
-    top: 347.09vh
+    top: 325.09vh
 }
 
 .our-partners {
     position: absolute;
-    top: 350.09vh;
+    top: 326.09vh;
     left: 10.13vw;
     width: 79.79vw;
     height: 59.34vh;
@@ -594,17 +592,17 @@ nav {
     width: 16.38vw;
 }
 
-.fourth-right-line-spacing{
-    top: 381.84vh;
+.fourth-right-line-spacing {
+    top: 355.84vh;
 }
 
-.fifth-left-line-spacing{
+.fifth-left-line-spacing {
     top: 425.7vh;
 }
 
 .last-heading-text {
     position: absolute;
-    top: 500.14vh;
+    top: 460.14vh;
     left: 15.74vw;
     width: 61.78vw;
     height: 18.056vh;
@@ -612,13 +610,11 @@ nav {
     font-size: 6.02vh;
     font-weight: 600;
 
-    background: linear-gradient(
-        to right,
-        #292929 4%,
-        #FFFFFF 32%,
-        #676767 55%,
-        #FFFFFF 73%
-    );
+    background: linear-gradient(to right,
+            #292929 4%,
+            #FFFFFF 32%,
+            #676767 55%,
+            #FFFFFF 73%);
 
     background-clip: text;
     -webkit-background-clip: text;
@@ -641,9 +637,130 @@ nav {
     background-color: transparent;
     margin: 0;
     padding: 0;
-    top: 512.30vh;
+    top: 473.16vh;
     right: 26.08vw;
 }
+
+.faqs {
+    position: absolute;
+    top: 392.39vh;
+}
+
+.fifth-top-button-sizing {
+    margin-left: 40.8vw;
+    width: 9.40vw;
+    height: 5.78vh;
+}
+
+.use-hashrid {
+    position: absolute;
+    top: 255.15vh;
+}
+
+.size-third{
+    margin-top: 2.5vh;
+    margin-left: 19.08vw;
+    font-size: 1.3vw;
+    width: 60.81vw;
+}
+
+.faq-item {
+  width: 39.32vw;
+  height: 8vh; /* collapsed height */
+  box-shadow: 0 45px 70px -20px rgba(0, 0, 0, 0.45);
+  border: 1px solid #404040;
+  border-radius: 5px;
+  background-color: rgba(18, 18, 19, 0.45);
+  backdrop-filter: blur(45%);
+  -webkit-backdrop-filter: blur(45%);
+  overflow: hidden;
+  z-index: 100;
+  transition: height 0.3s ease;
+  position: relative;
+}
+
+.faq-item.open {
+  height: 18vh; /* expanded height */
+}
+
+.faq-question-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 2vh;
+  padding-left: 1.89vw;
+  padding-right: 1.89vw;
+}
+
+.faq-question {
+  font-size: 2.13vh;
+  color: #DEDEDE;
+}
+
+.faq-answer {
+  font-size: 1.67vh;
+  color: #999999;
+  margin-left: 1.89vw;
+  width: 32.27vw;
+  margin-top: 0.55vh;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.faq-item.open .faq-answer {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.toggle-icon {
+  font-size: 2.5vh;
+  color: #DEDEDE;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.all-faq {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.01vh 1.07vw; 
+    margin-left: 8vw;
+    margin-top: 6.25vh;
+}
+
+.footer-text{
+    position: absolute;
+    font-size: 1.39vh;
+    color: #DEDEDE;
+    top: 495.45vh;
+    left: 4.55vw;
+    height: 5vh;
+}
+
+.flex{
+    display: flex;
+}
+
+.second-part-footer{
+    display: flex;
+    margin-left: 40vw;
+    gap: 4vw;
+}
+
+.third-part-footer{
+    display: flex;
+    margin-left: 5.5vw;
+    gap: 2vw;
+}
+.footer-img-sizing{
+    width: 1.03vw;
+    height: 1.03vw;
+}
+.fifth-right-line-spacing{
+    top: 456.45vh;
+}
+
+
 
 
 /* ================== Responsive for Tablets ================== */
@@ -854,26 +971,62 @@ nav {
 
     .use-hashrid {
         position: absolute;
-        top: 60vh;
+        top: 315vh;
     }
-    .third-top-button-sizing{
+
+    .third-top-button-sizing {
+        margin-left: 41.52vw;
         width: 20vw;
         height: 6vh;
     }
-    .fourth-top-button-sizing{
+
+    .fourth-top-button-sizing {
         width: 20vw;
         height: 6vh;
     }
-    .card3{
+
+    .card3 {
         height: 12vh;
     }
-    .card4-inside{
+
+    .card4-inside {
         height: 5vh;
     }
-    .card4-img-size{
+
+    .card4-img-size {
         height: 3vh;
     }
-    .our-partners{
+
+    .our-partners {
+        top: 355vh;
         height: 47vh;
+    }
+    .all-faq{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .faqs{
+        top: 410vh
+    }
+    .fifth-top-button-sizing{
+        width: 19vw;
+    }
+
+    .last-heading-text{
+        top: 490vh;
+        left: 2vh;
+        font-size: 3vh;
+    }
+    .waitlist-form-last{
+        top: 500vh;
+        flex-direction: column;
+        width: 86vw;
+        gap: 1vh;
+        padding: 1vh;
+        height: 10vh;
+        right: 0;
+        left: 3vw;
+    }
+    .footer-text{
+        top: 510vh;
     }
 }

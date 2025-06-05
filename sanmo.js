@@ -46,6 +46,7 @@ const container = document.querySelector(".card-spacing");
 const card2Container = document.getElementById("card2Container");
 const card3Container = document.getElementById("card3Container");
 
+
 cardData.map(data => {
     const card = document.createElement('div');
     card.className = 'first-card-design';
@@ -96,4 +97,13 @@ card3Data.map(data => {
   `;
 
   card3Container.appendChild(card);
+});
+
+
+document.querySelectorAll('.toggle-icon').forEach(icon => {
+  icon.addEventListener('click', () => {
+    const faqItem = icon.closest('.faq-item');
+    faqItem.classList.toggle('open');
+    icon.textContent = faqItem.classList.contains('open') ? 'x' : '+';
+  });
 });
