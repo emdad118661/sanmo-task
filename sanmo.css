@@ -5,6 +5,7 @@ body {
     margin-left: 2.31vw;
     margin-right: 2.61vw;
     margin-top: 3.17vh;
+    overflow-x: hidden;
 }
 
 nav {
@@ -801,7 +802,7 @@ nav {
     }
 
     .top-heading-text {
-        font-size: 5.5vh;
+        font-size: 4.5vh;
         width: 90vw;
         left: 5vw;
     }
@@ -862,6 +863,14 @@ nav {
     .card3 {
         height: 40vh;
     }
+
+    .waitlist-form-last {
+        right: 19vw;
+    }
+
+    .meet-harshid-card {
+        height: 34vh
+    }
 }
 
 /* ================== Responsive for Mobile ================== */
@@ -900,7 +909,7 @@ nav {
         font-size: 1.8vh;
         width: 85vw;
         left: 7.5vw;
-        top: 60vh;
+        top: 64vh;
     }
 
     .xp-waitlist-section {
@@ -1104,4 +1113,131 @@ nav {
         /* Optional: for vertical center */
         width: 100vw;
     }
+}
+
+@media (min-height: 1000px) {
+    .first-card-design {
+        height: 23vh;
+    }
+
+    .second-card-design {
+        height: 22vh;
+    }
+
+    .meet-harshid-card {
+        height: 28vh
+    }
+
+    .last-heading-text {
+        top: 382vh;
+        left: 2vh;
+        font-size: 3vh;
+        width: 96vw;
+    }
+
+    .waitlist-form-last {
+        position: absolute;
+        top: 402vh;
+        display: flex;
+        width: 86vw;
+        height: 3.06vh;
+        border: 1px solid #999;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: transparent;
+        left: 7vw;
+        padding: 0;
+        
+    }
+
+    .footer-text {
+        top: 413vh;
+    }
+
+    .flex {
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .second-part-footer {
+        margin-left: 5vw;
+    }
+
+    .third-part-footer {
+        margin-left: 35vw;
+    }
+
+    .first-part-footer {
+        margin-left: 10vw;
+    }
+
+    .last-heading-text {
+        top: 390vh;
+        left: 6vh;
+        font-size: 3vh;
+        width: 96vw;
+    }
+
+    .meet-harshid-card {
+        height: 34vh
+    }
+
+    .feature-power-culture-card {
+        height: 80vh;
+    }
+
+    .use-hashrid {
+        position: absolute;
+        top: 235vh;
+    }
+
+    .card3 {
+        height: 15vh;
+    }
+
+    .our-partners {
+        top: 270vh;
+        height: 38vh;
+    }
+
+    .card4-inside {
+        height: 4vh;
+    }
+
+    .card4-img-size {
+        height: 2vh;
+    }
+
+    .faqs {
+        top: 315vh
+    }
+
+    .fourth-right-line-spacing {
+        top: 280.23vh;
+    }
+
+    .second-right-line-spacing {
+        top: 100.77vh;
+    }
+
+    .third-right-line-spacing {
+        top: 200.23vh;
+    }
+
+    .fifth-right-line-spacing {
+        top: 340.45vh;
+    }
+
+    .fourth-left-line-spacing {
+        top: 300.09vh
+    }
+
+    .fifth-left-line-spacing {
+        top: 380vh
+    }
+
+    .faq-item.open {
+    height: 24vh;
+    /* expanded height */
+}
 }

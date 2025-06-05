@@ -36,7 +36,7 @@ const card3Data = [
     img: "./assets/card3.png",
     step: "step 3",
     heading: "Unlock Rewards & Monetize",
-    description: "Use your XP to access voice portals, premium quests, and creator monetization. Earn stablecoins, badges, and flex your status across the platform."
+    description: "Use your XP to access voice portals, premium quests, and creator monetization.Earn stablecoins, badges, and flex your status across the platform."
   }
 ];
 
