@@ -18,6 +18,12 @@ nav {
     font-style: normal;
 }
 
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .dm-sans-font {
     font-family: "DM Sans", sans-serif;
     font-style: normal;
@@ -335,7 +341,6 @@ nav {
 }
 
 .second-top-button-sizing {
-    margin-left: 31.40vw;
     margin-top: 2.63vh;
     width: 19.95vw;
     height: 5.78vh;
@@ -358,6 +363,13 @@ nav {
 }
 
 .size-second {
+    margin-top: 4.51vh;
+    margin-left: 10.08vw;
+    font-size: 1.3vw;
+    width: 60.81vw;
+}
+
+.size-third {
     margin-top: 4.51vh;
     margin-left: 10.08vw;
     font-size: 1.3vw;
@@ -473,7 +485,6 @@ nav {
 }
 
 .third-top-button-sizing {
-    margin-left: 41.51vw;
     width: 19.95vw;
     height: 5.78vh;
 }
@@ -493,7 +504,6 @@ nav {
     padding: 0 3vw;
     box-sizing: border-box;
     margin-top: 2.78vh;
-    margin-left: 10vw;
 }
 
 .card3 {
@@ -555,7 +565,6 @@ nav {
 }
 
 .fourth-top-button-sizing {
-    margin-left: 34.59vw;
     margin-top: 3.95vh;
     width: 10.61vw;
     height: 5.78vh;
@@ -644,10 +653,11 @@ nav {
 .faqs {
     position: absolute;
     top: 392.39vh;
+    width: 79.79vw;
+    left: 10.13vw;
 }
 
 .fifth-top-button-sizing {
-    margin-left: 40.8vw;
     width: 9.40vw;
     height: 5.78vh;
 }
@@ -655,80 +665,83 @@ nav {
 .use-hashrid {
     position: absolute;
     top: 255.15vh;
+    width: 79.79vw;
+    left: 10.13vw;
 }
 
-.size-third{
+.size-third {
     margin-top: 2.5vh;
-    margin-left: 19.08vw;
+    margin-left: 10.08vw;
     font-size: 1.3vw;
     width: 60.81vw;
 }
 
 .faq-item {
-  width: 39.32vw;
-  height: 8vh; /* collapsed height */
-  box-shadow: 0 45px 70px -20px rgba(0, 0, 0, 0.45);
-  border: 1px solid #404040;
-  border-radius: 5px;
-  background-color: rgba(18, 18, 19, 0.45);
-  backdrop-filter: blur(45%);
-  -webkit-backdrop-filter: blur(45%);
-  overflow: hidden;
-  z-index: 100;
-  transition: height 0.3s ease;
-  position: relative;
+    width: 39.32vw;
+    height: 8vh;
+    /* collapsed height */
+    box-shadow: 0 45px 70px -20px rgba(0, 0, 0, 0.45);
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background-color: rgba(18, 18, 19, 0.45);
+    backdrop-filter: blur(45%);
+    -webkit-backdrop-filter: blur(45%);
+    overflow: hidden;
+    z-index: 100;
+    transition: height 0.3s ease;
+    position: relative;
 }
 
 .faq-item.open {
-  height: 18vh; /* expanded height */
+    height: 18vh;
+    /* expanded height */
 }
 
 .faq-question-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-top: 2vh;
-  padding-left: 1.89vw;
-  padding-right: 1.89vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 2vh;
+    padding-left: 1.89vw;
+    padding-right: 1.89vw;
 }
 
 .faq-question {
-  font-size: 2.13vh;
-  color: #DEDEDE;
+    font-size: 2.13vh;
+    color: #DEDEDE;
 }
 
 .faq-answer {
-  font-size: 1.67vh;
-  color: #999999;
-  margin-left: 1.89vw;
-  width: 32.27vw;
-  margin-top: 0.55vh;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
+    font-size: 1.67vh;
+    color: #999999;
+    margin-left: 1.89vw;
+    width: 32.27vw;
+    margin-top: 0.55vh;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
 }
 
 .faq-item.open .faq-answer {
-  opacity: 1;
-  pointer-events: auto;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .toggle-icon {
-  font-size: 2.5vh;
-  color: #DEDEDE;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+    font-size: 2.5vh;
+    color: #DEDEDE;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 .all-faq {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3.01vh 1.07vw; 
-    margin-left: 8vw;
+    gap: 3.01vh 1.07vw;
     margin-top: 6.25vh;
 }
 
-.footer-text{
+.footer-text {
     position: absolute;
     font-size: 1.39vh;
     color: #DEDEDE;
@@ -737,26 +750,28 @@ nav {
     height: 5vh;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.second-part-footer{
+.second-part-footer {
     display: flex;
     margin-left: 40vw;
     gap: 4vw;
 }
 
-.third-part-footer{
+.third-part-footer {
     display: flex;
     margin-left: 5.5vw;
     gap: 2vw;
 }
-.footer-img-sizing{
+
+.footer-img-sizing {
     width: 1.03vw;
     height: 1.03vw;
 }
-.fifth-right-line-spacing{
+
+.fifth-right-line-spacing {
     top: 456.45vh;
 }
 
@@ -812,6 +827,10 @@ nav {
     }
 
     .size-second {
+        font-size: 12px;
+    }
+
+    .size-third {
         font-size: 12px;
     }
 
@@ -923,14 +942,15 @@ nav {
     }
 
     .top-button {
-        margin-left: 28.79vw;
-        font-size: 10px;
+        font-size: 3.5vw;
+        margin: 0 auto;
+        /* fallback margin center */
     }
 
-    .first-top-button-sizing {
+    /* .first-top-button-sizing {
         width: 23.16vw;
         height: 6.78vh;
-    }
+    } */
 
     .card-spacing {
         grid-template-columns: repeat(1, 1fr);
@@ -975,14 +995,16 @@ nav {
     }
 
     .third-top-button-sizing {
-        margin-left: 41.52vw;
-        width: 20vw;
+        width: 80vw;
         height: 6vh;
+        margin-left: 0;
+        /* remove any offset */
     }
 
     .fourth-top-button-sizing {
-        width: 20vw;
+        width: 80vw;
         height: 6vh;
+        margin-left: 0;
     }
 
     .card3 {
@@ -1001,23 +1023,30 @@ nav {
         top: 355vh;
         height: 47vh;
     }
-    .all-faq{
+
+    .all-faq {
         grid-template-columns: repeat(1, 1fr);
     }
-    .faqs{
+
+    .faqs {
         top: 410vh
     }
-    .fifth-top-button-sizing{
-        width: 19vw;
+
+    .fifth-top-button-sizing {
+        width: 80vw;
+        height: 6vh;
+        margin-left: 0;
     }
 
-    .last-heading-text{
-        top: 490vh;
+    .last-heading-text {
+        top: 503vh;
         left: 2vh;
         font-size: 3vh;
+        width: 96vw;
     }
-    .waitlist-form-last{
-        top: 500vh;
+
+    .waitlist-form-last {
+        top: 525vh;
         flex-direction: column;
         width: 86vw;
         gap: 1vh;
@@ -1026,7 +1055,53 @@ nav {
         right: 0;
         left: 3vw;
     }
-    .footer-text{
-        top: 510vh;
+
+    .footer-text {
+        top: 540vh;
+    }
+
+    .flex {
+        flex-direction: column;
+        text-align: center;
+        gap: 2vh;
+    }
+
+    .second-part-footer {
+        margin-left: 2vw;
+    }
+
+    .third-part-footer {
+        margin-left: 35vw;
+    }
+
+    .faq-item {
+        width: 80vw;
+    }
+
+    .faq-item.open {
+        height: 15vh;
+    }
+
+    .faq-answer {
+        width: 50vw;
+        font-size: 1vh;
+    }
+
+    .second-top-button-sizing {
+        width: 80vw;
+        height: 6vh;
+        margin-left: 0;
+    }
+
+    .size-third {
+        margin-left: 10vw;
+    }
+
+    .button-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Optional: for vertical center */
+        width: 100vw;
     }
 }
