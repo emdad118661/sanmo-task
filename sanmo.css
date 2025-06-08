@@ -792,12 +792,12 @@ nav {
     }
 
     .first-box {
-        width: 96vw;
+        width: 92vw;
         left: 2vw;
     }
 
     .second-box {
-        width: 90vw;
+        width: 88vw;
         left: 0;
     }
 
@@ -824,7 +824,7 @@ nav {
 
     .line-under-first-box {
         height: 3.56vh;
-        width: 98vw;
+        width: 94vw;
         left: 1vw;
     }
 
@@ -880,9 +880,9 @@ nav {
     .meet-harshid-card {
         height: 34vh
     }
-    nav{ 
-        width: 96vw; 
-    };
+    nav{
+        width: 92vw;
+    }
 }
 
 /* ================== Responsive for Mobile ================== */
