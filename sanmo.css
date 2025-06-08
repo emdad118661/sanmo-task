@@ -898,7 +898,6 @@ nav {
 
     .second-box {
         width: 90vw;
-        left: 0;
         height: 70.73888889vh;
     }
 
@@ -924,6 +923,7 @@ nav {
         height: 21vh;
         left: 5vw;
     }
+
 
     .sub-heading-text {
         font-size: 1.8vh;
@@ -1136,7 +1136,7 @@ nav {
         justify-content: center;
         align-items: center;
         /* Optional: for vertical center */
-        width: 100vw;
+        width: 90vw;
     }
 }
 
