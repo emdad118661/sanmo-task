@@ -789,6 +789,11 @@ nav {
 
     body {
         margin-right: 0;
+        margin-left: 0;
+    }
+
+    nav{
+        width: 98vw;
     }
 
     .first-box {
@@ -893,10 +898,6 @@ nav {
     .second-part-footer{
         margin-left: 35vw;
     }
-
-    nav{
-        width: 100vw;
-    }
 }
 
 /* ================== Responsive for Mobile ================== */
@@ -905,6 +906,10 @@ nav {
     body {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    nav{
+        width: 96vw;
     }
 
     .first-box {
