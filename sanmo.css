@@ -880,6 +880,9 @@ nav {
     .meet-harshid-card {
         height: 34vh
     }
+    nav{ 
+        width: 96vw; 
+    };
 }
 
 /* ================== Responsive for Mobile ================== */
